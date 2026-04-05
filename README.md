@@ -71,6 +71,9 @@ python main.py
 ## Notes
 
 - The bot must be allowed to post in the target channel.
+- For join requests in a private channel, the bot must be an admin with permission to approve join requests.
+- When someone taps Request to Join, the bot sends a private message with a Subscribe now button.
+- Pressing Subscribe now approves that exact pending join request via Telegram API.
 - For private channels, set `TELEGRAM_CHANNEL` to the channel ID, not a public username.
 - Dry-run mode still generates images and text, but it does not send anything to Telegram.
 - If Ollama is unavailable, the bot falls back to simple generated text so the run can continue.

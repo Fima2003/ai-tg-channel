@@ -1,0 +1,272 @@
+2026-04-05 00:34:57,462 INFO telethon.network.mtprotosender: Connecting to 149.154.167.51:443/TcpFull...
+2026-04-05 00:34:57,462 DEBUG telethon.network.mtprotosender: Connection attempt 1...
+2026-04-05 00:34:57,528 DEBUG telethon.network.mtprotosender: Connection success!
+2026-04-05 00:34:57,528 DEBUG telethon.network.mtprotosender: Starting send loop
+2026-04-05 00:34:57,528 DEBUG telethon.network.mtprotosender: Starting receive loop
+2026-04-05 00:34:57,528 INFO telethon.network.mtprotosender: Connection to 149.154.167.51:443/TcpFull complete!
+2026-04-05 00:34:57,529 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,529 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020786061521940 to InvokeWithLayerRequest (11058beb0)
+2026-04-05 00:34:57,529 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 76 bytes for sending
+2026-04-05 00:34:57,531 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,531 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,531 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: Handling bad salt for message 7625020786061521940
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: 1 message(s) will be resent
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:57,598 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020786338754108 to InvokeWithLayerRequest (11058beb0)
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 76 bytes for sending
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,598 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020786339417868 to MsgsAck (11058bbb0)
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,598 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,666 DEBUG telethon.network.mtprotosender: Handling container
+2026-04-05 00:34:57,666 DEBUG telethon.network.mtprotosender: Handling new session created
+2026-04-05 00:34:57,666 DEBUG telethon.network.mtprotosender: Handling acknowledge for [7625020786338754108]
+2026-04-05 00:34:57,666 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:57,684 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625020786338754108
+2026-04-05 00:34:57,684 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:57,685 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020786684818676 to GetUsersRequest (1105d0100)
+2026-04-05 00:34:57,685 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 32 bytes for sending
+2026-04-05 00:34:57,685 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,685 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,685 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020786685778072 to MsgsAck (11058bee0)
+2026-04-05 00:34:57,685 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 60 bytes for sending
+2026-04-05 00:34:57,685 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,685 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,758 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625020786684818676
+2026-04-05 00:34:57,758 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:57,759 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020786982162884 to GetStateRequest (11058beb0)
+2026-04-05 00:34:57,759 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 20 bytes for sending
+2026-04-05 00:34:57,759 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,759 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,759 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020786983354024 to MsgsAck (1105d0430)
+2026-04-05 00:34:57,759 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:34:57,759 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,759 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,830 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625020786982162884
+2026-04-05 00:34:57,830 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:57,830 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020787267082624 to GetDifferenceRequest (11058beb0)
+2026-04-05 00:34:57,830 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:34:57,830 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,830 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,830 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020787267657688 to MsgsAck (1105d03d0)
+2026-04-05 00:34:57,830 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:34:57,830 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,830 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,904 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625020787267082624
+2026-04-05 00:34:57,904 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:57,904 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020787564533644 to GetUsersRequest (11058be50)
+2026-04-05 00:34:57,904 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 32 bytes for sending
+2026-04-05 00:34:57,905 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,905 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,905 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020787565238408 to MsgsAck (1105d02e0)
+2026-04-05 00:34:57,905 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:34:57,905 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,905 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,980 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625020787564533644
+2026-04-05 00:34:57,981 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:57,981 INFO telegram_client: Resolving target channel
+2026-04-05 00:34:57,982 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020787872694424 to GetChannelsRequest (11058bdf0)
+2026-04-05 00:34:57,982 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 48 bytes for sending
+2026-04-05 00:34:57,982 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,982 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:57,982 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020787873954228 to MsgsAck (1105d0880)
+2026-04-05 00:34:57,982 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:34:57,982 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:57,982 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:58,052 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625020787872694424
+2026-04-05 00:34:58,053 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:58,053 INFO telegram_client: Join request handlers are active for chat -1003668925134
+2026-04-05 00:34:58,055 INFO scheduler: Missed schedule; run now
+2026-04-05 00:34:58,055 INFO telegram_client: Resolving target channel
+2026-04-05 00:34:58,056 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020788464229636 to GetChannelsRequest (1105d0e80)
+2026-04-05 00:34:58,056 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 48 bytes for sending
+2026-04-05 00:34:58,056 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:58,056 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:58,056 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625020788465089852 to MsgsAck (1105d06d0)
+2026-04-05 00:34:58,056 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:34:58,056 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:34:58,056 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:34:58,130 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625020788464229636
+2026-04-05 00:34:58,131 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:34:58,131 INFO content_generator: Build content for 2026-04-04 (2 item)
+2026-04-05 00:34:58,131 DEBUG content_generator: Generate item text 1/2
+2026-04-05 00:34:58,151 DEBUG httpcore.connection: connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-04-05 00:34:58,153 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x1105d28f0>
+2026-04-05 00:34:58,153 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-04-05 00:34:58,153 DEBUG httpcore.http11: send_request_headers.complete
+2026-04-05 00:34:58,153 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-04-05 00:34:58,154 DEBUG httpcore.http11: send_request_body.complete
+2026-04-05 00:34:58,154 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-04-05 00:35:19,338 DEBUG telethon.network.mtprotosender: Handling gzipped data
+2026-04-05 00:35:19,377 DEBUG telethon.network.mtprotosender: Handling update Updates
+2026-04-05 00:35:19,381 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:35:33,836 DEBUG telethon.network.mtprotosender: Handling update Updates
+2026-04-05 00:35:33,842 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:35:49,539 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sat, 04 Apr 2026 21:35:49 GMT'), (b'Transfer-Encoding', b'chunked')])
+2026-04-05 00:35:49,547 INFO httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-05 00:35:49,548 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-04-05 00:35:49,549 DEBUG httpcore.http11: receive_response_body.complete
+2026-04-05 00:35:49,551 DEBUG httpcore.http11: response_closed.started
+2026-04-05 00:35:49,551 DEBUG httpcore.http11: response_closed.complete
+2026-04-05 00:35:49,592 DEBUG httpcore.connection: connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-04-05 00:35:49,602 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x110a2ff40>
+2026-04-05 00:35:49,602 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-04-05 00:35:49,602 DEBUG httpcore.http11: send_request_headers.complete
+2026-04-05 00:35:49,602 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-04-05 00:35:49,603 DEBUG httpcore.http11: send_request_body.complete
+2026-04-05 00:35:49,603 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-04-05 00:35:57,929 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021045361087868 to PingRequest (1105d0610)
+2026-04-05 00:35:57,931 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 28 bytes for sending
+2026-04-05 00:35:57,934 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:35:57,934 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:35:57,934 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021045382736272 to MsgsAck (1105d05e0)
+2026-04-05 00:35:57,935 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 52 bytes for sending
+2026-04-05 00:35:57,936 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:35:57,936 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:35:58,004 DEBUG telethon.network.mtprotosender: Handling pong for message 7625021045361087868
+2026-04-05 00:35:58,004 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:07,313 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sat, 04 Apr 2026 21:36:07 GMT'), (b'Transfer-Encoding', b'chunked')])
+2026-04-05 00:36:07,316 INFO httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-05 00:36:07,320 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-04-05 00:36:07,322 DEBUG httpcore.http11: receive_response_body.complete
+2026-04-05 00:36:07,373 DEBUG httpcore.http11: response_closed.started
+2026-04-05 00:36:07,374 DEBUG httpcore.http11: response_closed.complete
+2026-04-05 00:36:07,386 DEBUG content_generator: Generate item text 2/2
+2026-04-05 00:36:07,422 DEBUG httpcore.connection: connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-04-05 00:36:07,437 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x110a81600>
+2026-04-05 00:36:07,437 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-04-05 00:36:07,438 DEBUG httpcore.http11: send_request_headers.complete
+2026-04-05 00:36:07,438 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-04-05 00:36:07,438 DEBUG httpcore.http11: send_request_body.complete
+2026-04-05 00:36:07,438 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-04-05 00:36:30,743 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sat, 04 Apr 2026 21:36:30 GMT'), (b'Transfer-Encoding', b'chunked')])
+2026-04-05 00:36:30,745 INFO httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-05 00:36:30,746 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-04-05 00:36:30,746 DEBUG httpcore.http11: receive_response_body.complete
+2026-04-05 00:36:30,748 DEBUG httpcore.http11: response_closed.started
+2026-04-05 00:36:30,748 DEBUG httpcore.http11: response_closed.complete
+2026-04-05 00:36:30,774 DEBUG httpcore.connection: connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-04-05 00:36:30,788 DEBUG httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x110a82b30>
+2026-04-05 00:36:30,788 DEBUG httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-04-05 00:36:30,789 DEBUG httpcore.http11: send_request_headers.complete
+2026-04-05 00:36:30,789 DEBUG httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-04-05 00:36:30,789 DEBUG httpcore.http11: send_request_body.complete
+2026-04-05 00:36:30,789 DEBUG httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-04-05 00:36:38,356 DEBUG telethon.network.mtprotosender: Handling gzipped data
+2026-04-05 00:36:38,367 DEBUG telethon.network.mtprotosender: Handling update Updates
+2026-04-05 00:36:38,367 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:38,375 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021219237927240 to SendMessageRequest (1105d1120)
+2026-04-05 00:36:38,375 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 196 bytes for sending
+2026-04-05 00:36:38,375 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:38,375 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:38,375 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021219239103120 to MsgsAck (1105d1060)
+2026-04-05 00:36:38,375 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 44 bytes for sending
+2026-04-05 00:36:38,375 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:38,375 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:38,470 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625021219237927240
+2026-04-05 00:36:38,470 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:38,471 INFO telegram_client: Sent join verification DM to user 6631030908 for chat -1003668925134
+2026-04-05 00:36:43,803 DEBUG telethon.network.mtprotosender: Handling update Updates
+2026-04-05 00:36:43,804 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:43,807 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021242442123348 to HideChatJoinRequestRequest (1105d2a40)
+2026-04-05 00:36:43,808 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 64 bytes for sending
+2026-04-05 00:36:43,808 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:43,808 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:43,808 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021242445819788 to MsgsAck (1105d1510)
+2026-04-05 00:36:43,808 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 44 bytes for sending
+2026-04-05 00:36:43,809 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:43,809 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:43,911 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625021242442123348
+2026-04-05 00:36:43,911 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:43,914 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021242868679932 to EditMessageRequest (1105d12a0)
+2026-04-05 00:36:43,914 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021242869522980 to SetBotCallbackAnswerRequest (1105d11e0)
+2026-04-05 00:36:43,914 DEBUG telethon.network.mtprotosender: Encrypting 2 message(s) in 180 bytes for sending
+2026-04-05 00:36:43,915 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:43,915 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:43,915 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021242873035364 to MsgsAck (1105d1810)
+2026-04-05 00:36:43,915 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:36:43,916 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:43,916 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:43,917 DEBUG telethon.network.mtprotosender: Handling gzipped data
+2026-04-05 00:36:43,918 DEBUG telethon.network.mtprotosender: Handling update Updates
+2026-04-05 00:36:43,918 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:43,997 DEBUG telethon.network.mtprotosender: Handling container
+2026-04-05 00:36:43,997 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625021242869522980
+2026-04-05 00:36:43,998 DEBUG telethon.network.mtprotosender: Handling acknowledge for [7625021242868679932]
+2026-04-05 00:36:43,998 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:44,006 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625021242868679932
+2026-04-05 00:36:44,007 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:50,143 DEBUG httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sat, 04 Apr 2026 21:36:50 GMT'), (b'Transfer-Encoding', b'chunked')])
+2026-04-05 00:36:50,144 INFO httpx: HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-04-05 00:36:50,145 DEBUG httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-04-05 00:36:50,145 DEBUG httpcore.http11: receive_response_body.complete
+2026-04-05 00:36:50,147 DEBUG httpcore.http11: response_closed.started
+2026-04-05 00:36:50,147 DEBUG httpcore.http11: response_closed.complete
+2026-04-05 00:36:50,402 INFO telegram_client: Posting batch with 2 image(s)
+2026-04-05 00:36:50,408 DEBUG PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2026-04-05 00:36:50,408 DEBUG PIL.PngImagePlugin: STREAM b'IDAT' 41 53407
+2026-04-05 00:36:50,408 INFO telethon.client.uploads: Uploading file of 53464 bytes in 1 chunks of 131072
+2026-04-05 00:36:50,414 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021270914414712 to SaveFilePartRequest (110ae5f90)
+2026-04-05 00:36:50,414 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 43392 bytes for sending
+2026-04-05 00:36:50,418 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:50,418 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:50,419 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021270952109644 to MsgsAck (110ae5e10)
+2026-04-05 00:36:50,419 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 68 bytes for sending
+2026-04-05 00:36:50,419 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:50,419 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:50,702 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625021270914414712
+2026-04-05 00:36:50,703 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:50,703 DEBUG telethon.client.uploads: Uploaded 1/1
+2026-04-05 00:36:50,708 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021272108550380 to SendMediaRequest (1105d19f0)
+2026-04-05 00:36:50,708 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 524 bytes for sending
+2026-04-05 00:36:50,708 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:50,709 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:50,709 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021272113598176 to MsgsAck (1105d0760)
+2026-04-05 00:36:50,709 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:36:50,709 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:50,710 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:50,928 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625021272108550380
+2026-04-05 00:36:50,931 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:50,933 DEBUG PIL.PngImagePlugin: STREAM b'IHDR' 16 13
+2026-04-05 00:36:50,933 DEBUG PIL.PngImagePlugin: STREAM b'IDAT' 41 57866
+2026-04-05 00:36:50,934 INFO telethon.client.uploads: Uploading file of 57923 bytes in 1 chunks of 131072
+2026-04-05 00:36:50,937 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021273015090296 to SaveFilePartRequest (110ae5cc0)
+2026-04-05 00:36:50,937 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 46788 bytes for sending
+2026-04-05 00:36:50,945 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:50,945 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:50,945 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021273058978388 to MsgsAck (1105d0910)
+2026-04-05 00:36:50,945 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:36:50,946 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:50,946 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:51,192 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625021273015090296
+2026-04-05 00:36:51,192 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:51,192 DEBUG telethon.client.uploads: Uploaded 1/1
+2026-04-05 00:36:51,192 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021274340601872 to SendMediaRequest (1105d13c0)
+2026-04-05 00:36:51,192 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 472 bytes for sending
+2026-04-05 00:36:51,192 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:51,192 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:51,192 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021274342410040 to MsgsAck (110a2fd00)
+2026-04-05 00:36:51,192 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:36:51,193 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:51,193 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:51,407 DEBUG telethon.network.mtprotosender: Handling RPC result for message 7625021274340601872
+2026-04-05 00:36:51,408 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:36:51,411 INFO scheduler: Catch-up result: posted 2 items
+2026-04-05 00:36:51,412 INFO scheduler: Next run at 2026-04-05T18:20:00+00:00
+2026-04-05 00:36:57,937 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021303090529168 to PingRequest (110a809a0)
+2026-04-05 00:36:57,938 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 28 bytes for sending
+2026-04-05 00:36:57,938 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:57,938 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:57,939 DEBUG telethon.extensions.messagepacker: Assigned msg_id = 7625021303097065652 to MsgsAck (110a80820)
+2026-04-05 00:36:57,939 DEBUG telethon.network.mtprotosender: Encrypting 1 message(s) in 36 bytes for sending
+2026-04-05 00:36:57,939 DEBUG telethon.network.mtprotosender: Encrypted messages put in a queue to be sent
+2026-04-05 00:36:57,940 DEBUG telethon.network.mtprotosender: Waiting for messages to send...
+2026-04-05 00:36:58,009 DEBUG telethon.network.mtprotosender: Handling pong for message 7625021303090529168
+2026-04-05 00:36:58,010 DEBUG telethon.network.mtprotosender: Receiving items from the network...
+2026-04-05 00:37:00,301 INFO telethon.network.mtprotosender: Disconnecting from 149.154.167.51:443/TcpFull...
+2026-04-05 00:37:00,301 DEBUG telethon.network.mtprotosender: Closing current connection...
+2026-04-05 00:37:00,301 DEBUG telethon.network.mtprotosender: Cancelling 0 pending message(s)...
+2026-04-05 00:37:00,301 INFO telethon.network.mtprotosender: Disconnection from 149.154.167.51:443/TcpFull complete!
