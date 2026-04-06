@@ -114,6 +114,7 @@ class DailyScheduler:
                     retries + 1,
                     exc,
                 )
+                logger.debug("Run failure traceback", exc_info=True)
                 if attempt >= retries:
                     break
                 await asyncio.sleep(min(300, 2**attempt * 15))

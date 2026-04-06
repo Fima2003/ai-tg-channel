@@ -6,7 +6,7 @@ import logging
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from config import ConfigurationError, load_config
+from config import ConfigurationError, CivitaiRuntimeOverrides, load_config
 from scheduler import DailyScheduler
 from telegram_client import create_client
 
@@ -41,6 +41,63 @@ def parse_args() -> argparse.Namespace:
         help="Generate content without posting to Telegram",
     )
     parser.add_argument("--env-file", default=".env", help="Path to the .env file")
+    parser.add_argument(
+        "--civitai-model",
+        default=None,
+        help="Civitai model URN used for image generation",
+    )
+    parser.add_argument(
+        "--civitai-negative-prompt",
+        default=None,
+        help="Negative prompt passed to Civitai",
+    )
+    parser.add_argument(
+        "--civitai-width",
+        type=int,
+        default=None,
+        help="Generated image width",
+    )
+    parser.add_argument(
+        "--civitai-height",
+        type=int,
+        default=None,
+        help="Generated image height",
+    )
+    parser.add_argument(
+        "--civitai-steps",
+        type=int,
+        default=None,
+        help="Civitai generation steps",
+    )
+    parser.add_argument(
+        "--civitai-cfg-scale",
+        type=float,
+        default=None,
+        help="Civitai CFG scale",
+    )
+    parser.add_argument(
+        "--civitai-scheduler",
+        default=None,
+        help="Civitai scheduler name",
+    )
+    parser.add_argument(
+        "--civitai-clip-skip",
+        type=int,
+        default=None,
+        help="Civitai clip skip value",
+    )
+    parser.add_argument(
+        "--civitai-poll-interval",
+        type=int,
+        default=None,
+        help="Seconds between fallback job polls",
+    )
+    parser.add_argument(
+        "--civitai-poll-attempts",
+        type=int,
+        default=None,
+        help="Fallback poll attempts",
+    )
     return parser.parse_args()
 
 
@@ -60,8 +117,21 @@ async def async_main() -> int:
     args = parse_args()
     configure_logging()
 
+    civitai_overrides = CivitaiRuntimeOverrides(
+        model=args.civitai_model,
+        negative_prompt=args.civitai_negative_prompt,
+        width=args.civitai_width,
+        height=args.civitai_height,
+        steps=args.civitai_steps,
+        cfg_scale=args.civitai_cfg_scale,
+        scheduler=args.civitai_scheduler,
+        clip_skip=args.civitai_clip_skip,
+        poll_interval=args.civitai_poll_interval,
+        poll_attempts=args.civitai_poll_attempts,
+    )
+
     try:
-        config = load_config(args.env_file)
+        config = load_config(args.env_file, civitai_overrides=civitai_overrides)
     except ConfigurationError as exc:
         logging.error("Configuration error: %s", exc)
         return 2
